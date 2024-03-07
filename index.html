@@ -1,0 +1,223 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>主页</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.0.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
+</script>
+<meta name="keywords" content="德云相声博物馆" />
+<!--Google Fonts-->
+<link href='http://fonts.useso.com/css?family=Ropa+Sans:400,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- //end-smoth-scrolling -->
+</head>
+<body>
+<!--header start here-->
+<div class="header">
+   <div class="container">
+        <div class="header-main">
+			 <div class="logo">
+			   <a href="index.html"><img src="images/logo.png" alt=""></a>
+			 </div>
+            <div class="top-nav">
+            	<span class="menu"> <img src="images/icon.png" alt=""/></span>
+				<ul class="nav nav-pills nav-justified res">
+					<li><a class="active no-bar" href="index.html"><i class="glyphicon glyphicon-home"> </i>主页</a></li>
+					<li ><a class="icon" href="about.html"><i class="glyphicon glyphicon-star"> </i>关于</a></li>
+					<li><a href="pages.html"><i class="glyphicon glyphicon-list-alt"> </i>全部相声</a></li>
+					<li><a href="contact.html"><i class="glyphicon glyphicon-envelope"> </i>联系我们</a></li>
+				</ul>
+				<!-- script-for-menu -->
+							 <script>
+							   $( "span.menu" ).click(function() {
+								 $( "ul.res" ).slideToggle( 300, function() {
+								 // Animation complete.
+								  });
+								 });
+							</script>
+			<!-- /script-for-menu -->
+			 </div>	
+     <div class="clearfix"> </div>
+   </div>	
+ </div>
+</div>
+<!--header end here-->
+<!--banner start here-->
+<div class="banner">
+  <div class="container">
+ 	<div class="banner-main">
+	  <section class="slider">
+           <div class="flexslider">
+             <ul class="slides">
+				   <li>
+					<p>德云社是中国相声社团之一，成立于1995年，曾名为北京相声大会，2003年更名为德云社，以“让相声回归剧场”，“真正的相声”为主旨。</p>
+				   </li>
+          </ul>
+        </div>
+      </section>
+
+	</div>
+</div>
+<!--FlexSlider-->
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+
+</div>
+<!--banner end here-->
+<!--banner info start here-->
+<div class="bann-info">
+	<div class="container">
+		<div class="bann-info-main">
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b1.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>郭德纲</h3>
+					<p>德云社班主</p>
+				</div>
+			</div>
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b2.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>于谦</h3>
+					<p>相声皇后</p>
+				</div>
+			</div>
+			<div class="col-md-4 bann-info-grid">
+				<img src="images/b3.jpg" alt="" class="img-responsive">
+				<div class="ban-info-details">
+					<h3>岳云鹏</h3>
+					<p>德云第一贱</p>
+				</div>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--banner info end here-->
+<!-- coff-online start here-->
+<div class="coff-online">
+	<div class="container">
+		<div class="coff-online-main">
+			 <h1>Welcome</h1>
+			 <h2>德云相声博物馆</h2>
+			 <h4>德云相声博物馆是您追寻中国传统相声艺术精髓的绝佳去处。我们致力于收录德云社成员精彩的相声表演，为您提供一场充满笑声与智慧的视听盛宴。</h4>
+			 <h4>作为中国相声界的翘楚，德云社凭借其独特的表演风格和深厚的文化底蕴，赢得了无数观众的喜爱与追捧。在德云相声博物馆，您将能够欣赏到郭德纲、于谦等一流相声演员的经典表演，领略他们的机智幽默和艺术魅力。</h4>
+			 <h4>无论您身在何处，德云相声博物馆都愿意与您一同分享相声艺术的魅力，让您在忙碌的生活中寻找片刻的欢乐与放松。快来德云相声博物馆，与我们一起探索相声的奥妙，感受笑声带来的无限快乐吧！</h4>
+			 <p>The DeYun Cross-talk Museum is an excellent destination for you to explore the essence of traditional Chinese cross-talk art. We are committed to collecting the wonderful cross-talk performances of DeYun Society members, providing you with an audio-visual feast full of laughter and wisdom.
+				As a leader in the Chinese cross-talk industry, DeYun Society has won the love and admiration of countless audiences with its unique performance style and profound cultural heritage. At the DeYun Cross-talk Museum, you will be able to enjoy classic performances by top cross-talk actors such as Guo Degang and Yu Qian, and appreciate their wit, humor, and artistic charm.
+				Wherever you are, the DeYun Cross-talk Museum is willing to share the charm of cross-talk art with you, allowing you to find moments of joy and relaxation in your busy life. Come to the DeYun Cross-talk Museum and explore the mysteries of cross-talk with us, and experience the infinite joy brought by laughter!</p>
+		     <a href="about.html"> <span class="glyphicon glyphicon-list-alt read" aria-hidden="true"> </span> </a>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+<!--ccoff-online end here-->
+<!--coff-bar start here-->
+<div class="coff-bar">
+		<div class="coff-bar-main">
+			<div class="col-md-6 coff-bar-left">
+				
+			</div>
+			<div class="col-md-6 coff-bar-right">
+				<h3>郭德纲（于谦）的相声</h3>
+				<p>  快来欣赏由郭德纲先生和他的搭档带来的精彩表演吧！</p>
+			    <div class="cof-bar-btn">
+			    	<a href="./播放器/GDG/index.html" class="hvr-bounce-to-bottom">点击进入</a>
+			    </div>
+			</div>
+			<div class="clearfix"> </div>
+		 </div>
+</div>
+<!--coff-bar end here-->
+<!--culfy start here-->
+<div class="culfy">
+		<div class="culfy-main">
+			<div class="col-md-6 culfy-left">
+				<h3>岳云鹏的相声</h3>
+				<p> 快来欣赏由岳云鹏先生和他的搭档带来的精彩表演吧！</p>
+			    <div class="cull-btn">
+			    	<a href="./播放器/YYP/index.html" class="hvr-bounce-to-bottom">点击进入</a>
+			    </div>
+			</div>
+			<div class="col-md-6 culfy-right">
+				
+			</div>
+			<div class="clearfix"> </div>
+		 </div>
+</div>
+<!--culfy end here-->
+<!--footer start here-->
+<div class="footer">
+	<div class="container">
+		<div class="footer-main">
+		   <div class="col-md-3 footer-grid">
+				<h3>导航</h3>
+				<ul>
+					<li><a class="active no-bar" href="index.html">主页</a></li>
+					<li><a href="about.html">关于</a></li>
+					<li><a href="pages.html">全部相声</a></li>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+		   </div>
+			<div class="col-md-3 footer-grid">
+				<h3> </h3>
+
+			</div>
+			<div class="col-md-3 footer-grid">
+				<h3> </h3>
+
+				</ul>
+			</div>
+			<div class="col-md-3 footer-grid">
+				<h3>联系我们</h3>
+				<h4>德云社相声博物馆</h4>
+				<p>您有任何意见或者建议可以发送邮件到下面的地址</p>
+			    <div class="ftr-cont">
+			    	<span class="glyphicon glyphicon-envelope" aria-hidden="true"> </span>
+			    	<a href="mailto:liuqirui123@outlook.com">liuqirui123@outlook.com</a>
+			    </div>
+			</div>
+
+		<div class="clearfix"> </div>
+		<div class="copyright">
+	            <p>© 版權所有 &copy;N2O PRODUCTIONS OFFICIAL. ALL RIGHTS RESERVED<a target="_blank" href="https://www.nnoss.space/">  N2O PRODUCTIONS</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<!--footer end here-->
+</body>
+</html>
